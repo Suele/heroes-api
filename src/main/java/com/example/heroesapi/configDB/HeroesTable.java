@@ -29,7 +29,7 @@ public class HeroesTable {
 
     String tableName = "Heroes_Api_Table";
 
-    
+
     try {
       System.out.println("Criando tabela, aguarde...");
       Table table = dynamoDB.createTable(tableName,
